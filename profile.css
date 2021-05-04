@@ -1,0 +1,33 @@
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+* {
+    background-color: hsl(185, 75%, 39%);
+}
+
+.outside {
+    display: flex;
+}
+
+#topcircle {
+    position: absolute;
+    top: -640px;
+    left: -185px;
+    height: 1000px;
+    width: 1000px;
+    overflow: hidden;
+    z-index: -1;
+}
+
+#bottomcircle {
+    position: absolute;
+    bottom: -710px;
+    right: -85px;
+    height: 1000px;
+    width: 1000px;
+    overflow: hidden;
+    z-index: -1;
+}
