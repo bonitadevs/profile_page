@@ -1,15 +1,23 @@
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 11px; 
+    text-align: center; 
+    z-index: 5; 
+    position:absolute
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
-* {
+body {
     background-color: hsl(185, 75%, 39%);
+    overflow: hidden;
 }
 
 .outside {
     display: flex;
+    z-index: -2;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
 }
 
 #topcircle {
@@ -18,7 +26,6 @@
     left: -185px;
     height: 1000px;
     width: 1000px;
-    overflow: hidden;
     z-index: -1;
 }
 
@@ -28,6 +35,38 @@
     right: -85px;
     height: 1000px;
     width: 1000px;
-    overflow: hidden;
     z-index: -1;
 }
+
+.cardcontainer{
+    display: flex;
+    z-index: 2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+
+}
+
+#patterncard {
+    border-radius: 15px 15px 0px 0px;
+}
+
+#cardbox{
+    width: 350px;
+    height: 250px;
+    background-color: white;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.circle {
+    height: 125px;
+    width: 125px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    z-index: 3;
+    left: 45.9%;
+    bottom: 50%;
+    position: absolute;
+  }
