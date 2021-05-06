@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
@@ -9,6 +11,7 @@
 }
 body {
     background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
     overflow: hidden;
 }
 
@@ -69,4 +72,22 @@ body {
     left: 45.9%;
     bottom: 50%;
     position: absolute;
+  }
+
+  .ASL{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 400;
+      color: gray;
+      padding-top: 90px;
+  }
+
+  .location{
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 400;
+      color: gray;
+      padding-top: 10px;
   }
