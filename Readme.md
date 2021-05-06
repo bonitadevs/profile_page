@@ -16,8 +16,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -43,40 +41,22 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
-The background images were a struggle. I had trouble figuring out how to position the images and create overflow on the top left and bottom right. 
+The background images were a struggle. I had trouble figuring out how to position the images and create overflow on the top left and bottom right. I used a flex box, and absolute positioning to put the circles as close to the model position as possible.
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+1. You can use <mark> to change the color of just one word inline. Example:
+              <mark class="black">Victor Crest</mark>
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+2. You can add space between words using:
+              &nbsp;
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
@@ -84,7 +64,9 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+1. I really want to get a handle of using flexboxes and block elements. Everytime I think I got it, I realize I don't with the next project. 
+
+2. Position items on the screen. I've found makeshift ways, but I don't think it's the cleanest code I can write. I would love to really learn how to position items around on the page. 
 
 **Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 

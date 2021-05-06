@@ -57,20 +57,20 @@ body {
 
 #cardbox{
     width: 350px;
-    height: 250px;
+    height: 225px;
     background-color: white;
     border-radius: 0px 0px 15px 15px;
 }
 
 .circle {
-    height: 125px;
-    width: 125px;
+    height: 109px;
+    width: 109px;
     background-color: #fff;
     border-radius: 50%;
     display: inline-block;
     z-index: 3;
-    left: 45.9%;
-    bottom: 50%;
+    left: 46.4%;
+    bottom: 51.2%;
     position: absolute;
   }
 
@@ -80,7 +80,7 @@ body {
       justify-content: center;
       font-weight: 400;
       color: gray;
-      padding-top: 90px;
+      padding-top: 70px;
   }
 
   .location{
@@ -90,4 +90,35 @@ body {
       font-weight: 400;
       color: gray;
       padding-top: 10px;
+      font-size: 0.85em;
+  }
+
+  #piccontainer {
+      display: flex;
+      position: absolute;
+      border-radius: 50%;
+      align-items: center;
+      justify-content: center;
+    
+  }
+ 
+  .vicpic {
+    border-radius: 50%;
+    left: 46.8%;
+    bottom: 52.3%;
+    position: absolute;
+    z-index: 6;
+  }
+
+  mark.black {
+    color:#000000;
+    background: none;
+    font-weight: 700;
+  }
+
+  .likes {
+      display: flex;
+      position: absolute;
+
+
   }
