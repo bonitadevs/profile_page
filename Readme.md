@@ -43,6 +43,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
+The background images were a struggle. I had trouble figuring out how to position the images and create overflow on the top left and bottom right. 
+
 ### Built with
 
 - Semantic HTML5 markup
