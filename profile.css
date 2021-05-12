@@ -1,10 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
+ul {
+    padding: 0;
+}
+
+li.num {
+    list-style: none;
+   
+}
+
+li.stats {
+    list-style: none;
+    clear: left;
+    padding: 0;
+}
 .attribution { 
     font-size: 11px; 
     text-align: center; 
     z-index: 5; 
-    position:absolute
+    justify-items: center;
+    padding-top: 7px;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
@@ -13,6 +28,8 @@ body {
     background-color: hsl(185, 75%, 39%);
     font-family: 'Kumbh Sans', sans-serif;
     overflow: hidden;
+    clear: left;
+    padding: 0;
 }
 
 .outside {
@@ -75,7 +92,7 @@ body {
   }
 
   .ASL{
-      display: flex;
+      text-align: center;
       align-items: center;
       justify-content: center;
       font-weight: 400;
@@ -84,22 +101,21 @@ body {
   }
 
   .location{
-      display:flex;
+      text-align: center;
       align-items: center;
-      justify-content: center;
+      justify-items: center;
       font-weight: 400;
       color: gray;
-      padding-top: 10px;
+      padding-top: 13px;
+      padding: 10px;
       font-size: 0.85em;
   }
 
   #piccontainer {
-      display: flex;
       position: absolute;
       border-radius: 50%;
       align-items: center;
       justify-content: center;
-    
   }
  
   .vicpic {
@@ -116,9 +132,25 @@ body {
     font-weight: 700;
   }
 
-  .likes {
-      display: flex;
-      position: absolute;
+  .numbers {   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-top: 1px solid lightgray;
+    text-align: center;
+    z-index: 8;
+    color:#000000;
+    font-weight: 700;
+    font-size: 1.1em;
+    padding-top: 30px;
+    
+}
+
+.followers {
+    font-size: 0.65em;
+    line-height: 10%;
+    color: gray;  
+    font-weight: 400;
+}
 
 
-  }
