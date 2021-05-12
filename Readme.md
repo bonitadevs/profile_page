@@ -24,15 +24,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](profile_page/screenshot.png)
 
 ### Links
 
@@ -58,9 +50,8 @@ The background images were a struggle. I had trouble figuring out how to positio
 2. You can add space between words using:
               &nbsp;
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+3. I learned hwow to correctly put a flexbox within a flex box. I also understand how to make two line lists and justify the space around the items. It made it much easier to do then using padding. 
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
@@ -68,25 +59,17 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 2. Position items on the screen. I've found makeshift ways, but I don't think it's the cleanest code I can write. I would love to really learn how to position items around on the page. 
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [W3 Schools](https://www.w3schools.com/css/) - I know that some web devs do not like this site, but I find it useful and easy to locate what I'm looking for. 
+- [Stack Overflow](https://stackoverflow.com/) - This forum is the best. So many rich resources and advice here. Literally every question has already been asked. 
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Dani](https://github.com/bonitapp1ebum)
+- Frontend Mentor - [@@bonitapp1ebum](https://www.frontendmentor.io/profile/yourusername)
+- Twitter - [@dapper_daniela](https://www.twitter.com/dapper_daniela)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
